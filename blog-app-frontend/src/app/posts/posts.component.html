@@ -1,6 +1,10 @@
 <h2>All Posts</h2>
 <ul class="posts">
     <li *ngFor="let post of posts; let i = index">
-      <span class="badge">{{i}}</span> {{post.title}}
+      <a routerLink="/posts/{{post.id}}">
+        <span class="badge">{{post.id}}</span> {{post.title}}
+      </a>
     </li>
+
+
 </ul>

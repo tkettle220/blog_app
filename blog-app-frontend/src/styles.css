@@ -16,6 +16,23 @@ body, input[text], button {
   color: #888;
   font-family: Cambria, Georgia;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  padding: 5px;
+}
 /* everywhere else */
 * {
   font-family: Arial, Helvetica, sans-serif;
